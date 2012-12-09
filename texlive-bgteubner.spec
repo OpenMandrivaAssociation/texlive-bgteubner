@@ -170,3 +170,11 @@ families are supported: Times and European Computer Modern).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex makeindex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.02-1
++ Revision: 790532
+- Import texlive-bgteubner
+- Import texlive-bgteubner
+
