@@ -6,7 +6,7 @@
 # catalog-version 2.02
 Name:		texlive-bgteubner
 Version:	2.02
-Release:	8
+Release:	9
 Summary:	Class for producing books for the publisher "Teubner Verlag"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
