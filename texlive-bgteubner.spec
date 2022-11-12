@@ -5,9 +5,9 @@ Summary:	Class for producing books for the publisher "Teubner Verlag"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.r54080.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.doc.r54080.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.source.r54080.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
