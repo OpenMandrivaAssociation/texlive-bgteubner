@@ -1,13 +1,13 @@
 Name:		texlive-bgteubner
-Version:	2.11
-Release:	3
+Version:	54080
+Release:	1
 Summary:	Class for producing books for the publisher "Teubner Verlag"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.r54080.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.doc.r54080.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.source.r54080.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +27,12 @@ two paper sizes: DIN A-5 and 17cm x 24cm; only two font
 families are supported: Times and European Computer Modern).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -45,7 +45,8 @@ families are supported: Times and European Computer Modern).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
