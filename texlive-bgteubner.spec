@@ -1,6 +1,6 @@
 Name:		texlive-bgteubner
 Version:	54080
-Release:	1
+Release:	2
 Summary:	Class for producing books for the publisher "Teubner Verlag"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
