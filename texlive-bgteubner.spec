@@ -3,7 +3,7 @@ Version:	54080
 Release:	2
 Summary:	Class for producing books for the publisher "Teubner Verlag"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bgteubner
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgteubner.doc.r%{version}.tar.xz
